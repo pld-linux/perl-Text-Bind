@@ -28,7 +28,7 @@ uchwytów pliku, obiektów) z okre¶lonymi pozycjami w pliku tekstowym.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
