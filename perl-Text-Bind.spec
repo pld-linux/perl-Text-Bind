@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Bind
+%define		pdir	Text
+%define		pnam	Bind
 Summary:	Text::Bind - bind Perl structures to text files
 Summary(pl):	Text::Bind - wi±zanie struktur Perla z plikami tekstowymi
 Name:		perl-Text-Bind
