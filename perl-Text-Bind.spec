@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Bind
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-Bind perl module
 Summary(pl):	Modu³ perla Text-Bind
 Name:		perl-Text-Bind
 Version:	0.04
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Text-Bind - pozwala na wi±zanie struktur perla (³añcuchów, rutyn,
 uchwytów pliku, obiektów) z okre¶lonymi pozycjami w pliku tekstowym.
 
 %prep
-%setup -q -n Text-Bind-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
