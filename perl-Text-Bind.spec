@@ -7,7 +7,7 @@ Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/Text-Bind-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/Text-Bind-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,12 +15,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-Bind - allows to bind Perl structures (strings, routines, filehandles,
-objects) to specific locations in text files. 
+Text-Bind - allows to bind Perl structures (strings, routines,
+filehandles, objects) to specific locations in text files.
 
 %description -l pl
-Text-Bind - pozwala na wi±zanie struktur perla (³añcuchów, rutyn, uchwytów
-pliku, obiektów) z okre¶lonymi pozycjami w pliku tekstowym.
+Text-Bind - pozwala na wi±zanie struktur perla (³añcuchów, rutyn,
+uchwytów pliku, obiektów) z okre¶lonymi pozycjami w pliku tekstowym.
 
 %prep
 %setup -q -n Text-Bind-%{version}
