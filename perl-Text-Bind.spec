@@ -27,7 +27,7 @@ uchwytów pliku, obiektów) z okre¶lonymi pozycjami w pliku tekstowym.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
