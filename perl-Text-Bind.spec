@@ -6,7 +6,7 @@
 %define	pdir	Text
 %define	pnam	Bind
 Summary:	Text::Bind perl module
-Summary(pl):	Modu³ perla Text::Bind
+Summary(pl):	Modu³ Perla Text::Bind
 Name:		perl-Text-Bind
 Version:	0.04
 Release:	8
@@ -25,7 +25,7 @@ Text::Bind - allows to bind Perl structures (strings, routines,
 filehandles, objects) to specific locations in text files.
 
 %description -l pl
-Text::Bind - pozwala na wi±zanie struktur perla (³añcuchów, rutyn,
+Text::Bind - pozwala na wi±zanie struktur Perla (³añcuchów, rutyn,
 uchwytów pliku, obiektów) z okre¶lonymi pozycjami w pliku tekstowym.
 
 %prep
