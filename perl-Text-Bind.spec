@@ -9,7 +9,7 @@ Summary:	Text::Bind perl module
 Summary(pl):	Modu³ perla Text::Bind
 Name:		perl-Text-Bind
 Version:	0.04
-Release:	7
+Release:	8
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
