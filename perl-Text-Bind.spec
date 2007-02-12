@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Bind
 Summary:	Text::Bind - bind Perl structures to text files
-Summary(pl):	Text::Bind - wi±zanie struktur Perla z plikami tekstowymi
+Summary(pl.UTF-8):   Text::Bind - wiÄ…zanie struktur Perla z plikami tekstowymi
 Name:		perl-Text-Bind
 Version:	0.04
 Release:	8
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Text::Bind - allows to bind Perl structures (strings, routines,
 filehandles, objects) to specific locations in text files.
 
-%description -l pl
-Text::Bind - pozwala na wi±zanie struktur Perla (³añcuchów, funkcji,
-uchwytów pliku, obiektów) z okre¶lonymi pozycjami w pliku tekstowym.
+%description -l pl.UTF-8
+Text::Bind - pozwala na wiÄ…zanie struktur Perla (Å‚aÅ„cuchÃ³w, funkcji,
+uchwytÃ³w pliku, obiektÃ³w) z okreÅ›lonymi pozycjami w pliku tekstowym.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
