@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Bind
 Summary:	Text::Bind - bind Perl structures to text files
-Summary(pl.UTF-8):   Text::Bind - wiązanie struktur Perla z plikami tekstowymi
+Summary(pl.UTF-8):	Text::Bind - wiązanie struktur Perla z plikami tekstowymi
 Name:		perl-Text-Bind
 Version:	0.04
 Release:	8
