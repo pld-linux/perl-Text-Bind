@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	Bind
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Bind - bind Perl structures to text files
 Summary(pl.UTF-8):	Text::Bind - wiązanie struktur Perla z plikami tekstowymi
 Name:		perl-Text-Bind
