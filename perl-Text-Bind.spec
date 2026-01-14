@@ -8,7 +8,7 @@ Summary:	Text::Bind - bind Perl structures to text files
 Summary(pl.UTF-8):	Text::Bind - wiązanie struktur Perla z plikami tekstowymi
 Name:		perl-Text-Bind
 Version:	0.04
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
